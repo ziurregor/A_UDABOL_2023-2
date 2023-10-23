@@ -21,7 +21,7 @@ namespace backend.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
         {
-            var alumnos = await _alumnoRepository.GetAllAlumnos(); //colocar el codigo correcto
+            var alumnos = await _alumnoRepository.GetAllAlumno(); //colocar el codigo correcto
             return Ok(alumnos);
         }
 
@@ -50,7 +50,7 @@ namespace backend.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
-            await _alumnoRepository.AddAlumno(alumno)//adciona a alumno;
+            await _alumnoRepository.AddAlumno(alumno);//adciona a alumno;
             return Ok();
         }
 
@@ -61,19 +61,19 @@ namespace backend.Controllers
             {
                 return BadRequest();
             }
-            await _alumnoRepository.//axctualizar alumno;
+            await _alumnoRepository.UpdateAlumno(alumno);//axctualizar alumno;
             return Ok();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlumno(int id)
         {
-            var alumno = await _alumnoRepository.//optener al alumno;
+            var alumno = await _alumnoRepository.GetAlumnoById(id);//optener al alumno;
             if (alumno == null)
             {
                 return NotFound();
             }
-            await _alumnoRepository.//borrar el alumno;
+            await _alumnoRepository.DeleteAlumno(alumno);//borrar el alumno;
             return Ok();
         }
     }
