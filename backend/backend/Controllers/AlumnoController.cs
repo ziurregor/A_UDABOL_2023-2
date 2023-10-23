@@ -21,7 +21,7 @@ namespace backend.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
         {
-            var alumnos = null; //colocar el codigo correcto
+            var alumnos = await _alumnoRepository.GetAllAlumnos(); //colocar el codigo correcto
             return Ok(alumnos);
         }
 
@@ -39,7 +39,7 @@ namespace backend.Controllers
         [HttpGet("{codigo}")]
         public async Task<ActionResult<Alumno>> GetAlumnoByCodigo(string codigo)
         {
-            var alumno = null;//buscar el alumno por codigo
+            var alumno = await _alumnoRepository.GetAlumnoByCodigo(codigo);//buscar el alumno por codigo
             if (alumno == null)
             {
                 return NotFound();
@@ -50,7 +50,7 @@ namespace backend.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
-            await _alumnoRepository.//adciona a alumno;
+            await _alumnoRepository.AddAlumno(alumno);//adciona a alumno;
             return Ok();
         }
 
