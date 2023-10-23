@@ -50,7 +50,7 @@ namespace backend.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
-            await _alumnoRepository.AddAlumno(alumno);//adciona a alumno;
+            await _alumnoRepository.AddAlumno(alumno)//adciona a alumno;
             return Ok();
         }
 
