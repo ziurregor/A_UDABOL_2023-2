@@ -293,13 +293,3 @@
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/backend/backend/obj/Debug/net6.0/backend.pdb
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/backend/backend/obj/Debug/net6.0/backend.genruntimeconfig.cache
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/backend/backend/obj/Debug/net6.0/ref/backend.dll
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.dll
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\refint\backend.dll
-C:\A_UDABOL_2023-2\backend\backend\obj\Debug\net6.0\backend.pdb
