@@ -1743,41 +1743,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/rogerruizescobar/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\yvan.paco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj",
+      "projectUniqueName": "C:\\A_UDABOL_2023-2\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj",
-      "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
-      "outputPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/obj/",
+      "projectPath": "C:\\A_UDABOL_2023-2\\backend\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\yvan.paco\\.nuget\\packages\\",
+      "outputPath": "C:\\A_UDABOL_2023-2\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\yvan.paco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj": {
-              "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj"
+            "C:\\A_UDABOL_2023-2\\backend\\ADO\\ADO.csproj": {
+              "projectPath": "C:\\A_UDABOL_2023-2\\backend\\ADO\\ADO.csproj"
             },
-            "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj": {
-              "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj"
+            "C:\\A_UDABOL_2023-2\\backend\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\A_UDABOL_2023-2\\backend\\Modelo\\Modelo.csproj"
             }
           }
         }
@@ -1828,7 +1824,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
