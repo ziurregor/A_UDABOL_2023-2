@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/ejercicio final/backend/notas.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2745"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,7:mainAlumnos"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">delete from Alumnos;
+INSERT INTO Alumnos (Nombre, PrimerRegistro, CorreoPersonal, CorreoUdabol, Codigo, Verificacion, IsActive, Ex_GIT_6PTS, Ex_ADOO_8PTS, Ex_ScrumTra_41PTS, Ex_SOLID_8PTS, Ex_12FactApp_12PTS, Ex_Docker_5PTS)
+SELECT Nombre, PrimerRegistro, CorreoPersonal, CorreoUdabol, Codigo, CasilladeVerificaion, Activo, [6-5GIT6Pts], [6-5ADOO6], [8-5ScrumVSTra41pts], [15-5Solid8pts], [20-512Fact12pts], [20-5Docker5pts]
+FROM [Lista csv];
+select *from alumnos;
+select *from alumnos where nombre like '%Llut%';
+select *from [Lista csv] where nombre like '%Llut%';
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

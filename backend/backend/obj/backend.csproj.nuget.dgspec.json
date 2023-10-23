@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj",
+        "projectName": "ADO",
+        "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj",
+        "projectName": "backend",
+        "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/backend.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/backend/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/ADO/ADO.csproj"
+              },
+              "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "SwashBuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Copia de ejercicio final/backend/Modelo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
