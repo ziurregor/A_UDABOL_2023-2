@@ -1,0 +1,7 @@
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/Modelo
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/appsettings.Development.json
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/appsettings.json
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/Modelo.dll
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/Modelo.deps.json
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/Modelo.runtimeconfig.json
+/Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/ejercicio final/output/net6.0/publish/Modelo.pdb

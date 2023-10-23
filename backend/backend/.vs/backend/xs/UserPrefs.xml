@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{36872A11-AF42-490B-ACF7-0177DCC0E4E0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Modelo/Alumno.cs">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="Dockerfile" />
+      <File FileName="Controllers/AlumnoController.cs" Line="71" Column="69" />
+      <File FileName="Startup.cs" Line="60" Column="14" />
+      <File FileName="backend.csproj" />
+      <File FileName="backend.sln" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.json" />
+      <File FileName="../Dockerfile" />
+      <File FileName="../ADO/AlumnoRepository.cs" Line="59" Column="38" />
+      <File FileName="../ADO/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="../Modelo/Alumno.cs" Line="11" Column="87" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="backend" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Varios proyectos" Name="Varios proyectos" />
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
