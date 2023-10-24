@@ -24,6 +24,7 @@ namespace ADO
             protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
           // Define las configuraciones de las entidades aquí
+            modelBuilder.Entity<Alumno>().HasKey(a => a.id);
             modelBuilder.Entity<Alumno>().Property(a => a.nombre).HasColumnName("nombre");
             modelBuilder.Entity<Alumno>().Property(a => a.primerRegistro).HasColumnName("primerRegistro");
             modelBuilder.Entity<Alumno>().Property(a => a.correoPersonal).HasColumnName("correoPersonal");
