@@ -33,7 +33,7 @@ namespace ADO
 
         public async Task<Alumno> GetAlumnoByCodigo(string codigo)
         {
-            var alumno = await _context.Alumnos.FirstOrDefaultAsync(a => a.Codigo == codigo);
+            var alumno = await _context.Alumnos.FirstOrDefaultAsync(a => a.codigo == codigo);
             if (alumno == null)
             {
                 throw new Exception("Alumno no encontrado");
