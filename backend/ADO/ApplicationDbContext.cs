@@ -23,7 +23,7 @@ namespace ADO
         {
             protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Define las configuraciones de las entidades aquí
+          // Define las configuraciones de las entidades aquí
             modelBuilder.Entity<Alumno>().HasKey(a => a.id);
             modelBuilder.Entity<Alumno>().Property(a => a.nombre).HasColumnName("nombre");
             modelBuilder.Entity<Alumno>().Property(a => a.primerRegistro).HasColumnName("primerRegistro");
@@ -38,7 +38,6 @@ namespace ADO
             modelBuilder.Entity<Alumno>().Property(a => a.ex_SOLID_8PTS).HasColumnName("ex_SOLID_8PTS");
             modelBuilder.Entity<Alumno>().Property(a => a.ex_12FactApp_12PTS).HasColumnName("ex_12FactApp_12PTS");
             modelBuilder.Entity<Alumno>().Property(a => a.ex_Docker_5PTS).HasColumnName("ex_Docker_5PTS");
-        }
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
