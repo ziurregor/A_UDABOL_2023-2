@@ -42,9 +42,9 @@ namespace ADO
         }
 
 
-        public async Task AddAlumno(Alumno alumno)
+         public async Task AddAlumno(Alumno alumno)
         {
-            //adicionar el codigo para adicionar un dato tipo alumno
+            _context.Alumnos.Add(alumno);
             await _context.SaveChangesAsync();
         }
 
