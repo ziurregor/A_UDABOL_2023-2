@@ -47,10 +47,9 @@ namespace ADO
             _context.Alumnos.Add(alumno);
             await _context.SaveChangesAsync();
         }
-
         public async Task UpdateAlumno(Alumno alumno)
         {
-            //modificar el context.Alumnos actualizando el dato con el alumno
+            _context.Alumnos.Update(alumno);
             await _context.SaveChangesAsync();
         }
 
