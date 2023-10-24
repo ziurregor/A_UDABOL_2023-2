@@ -55,7 +55,7 @@ namespace ADO
 
         public async Task DeleteAlumno(Alumno alumno)
         {
-            //_context.Alumnos borrar el alumno
+            _context.Alumnos.Remove(alumno);
             await _context.SaveChangesAsync();
         }
     }
