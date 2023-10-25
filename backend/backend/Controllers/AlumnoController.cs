@@ -21,7 +21,7 @@ namespace backend.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
         {
-            var alumnos = await _alumnoRepository.GetAllAlumno(); //colocar el codigo correcto
+            var alumnos = await _alumnoRepository.GetAllAlumno();
             return Ok(alumnos);
         }
 
@@ -39,7 +39,7 @@ namespace backend.Controllers
         [HttpGet("{codigo}")]
         public async Task<ActionResult<Alumno>> GetAlumnoByCodigo(string codigo)
         {
-            var alumno = await _alumnoRepository.GetAlumnoByCodigo(codigo);//buscar el alumno por codigo
+            var alumno = await _alumnoRepository.GetAlumnoByCodigo(codigo);
             if (alumno == null)
             {
                 return NotFound();
@@ -47,12 +47,19 @@ namespace backend.Controllers
             return Ok(alumno);
         }
 
+        /// <summary>
+        /// Addalumno  recibe un objeto de tipo alumno y lo registra en la bd.
+        /// </summary>
+        /// <param name="Alumno"></param>
+        /// <returns></returns>
+
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
-            await _alumnoRepository.AddAlumno(alumno);//adciona a alumno;
+            await _alumnoRepository.AddAlumno(alumno);
             return Ok();
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAlumno(int id, Alumno alumno)
@@ -61,14 +68,14 @@ namespace backend.Controllers
             {
                 return BadRequest();
             }
-            await _alumnoRepository.UpdateAlumno(alumno);//axctualizar alumno;
+            await _alumnoRepository.UpdateAlumno(alumno);
             return Ok();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlumno(int id)
         {
-            var alumno = await _alumnoRepository.GetAlumnoById(id);//optener al alumno;
+            var alumno = await _alumnoRepository.GetAlumnoById(id);//obtener al alumno;
             if (alumno == null)
             {
                 return NotFound();
