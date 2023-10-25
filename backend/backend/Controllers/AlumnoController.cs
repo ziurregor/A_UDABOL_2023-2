@@ -47,20 +47,17 @@ namespace backend.Controllers
             return Ok(alumno);
         }
 
-        /// <summary>
-        /// Addalumno  recibe un objeto de tipo alumno y lo registra en la bd.
-        /// </summary>
-        /// <param name="Alumno"></param>
-        /// <returns></returns>
-
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
             await _alumnoRepository.AddAlumno(alumno);
             return Ok();
         }
-
-
+        /// <summary>
+        /// UpdateAlumno modifica el registro de un alumno
+        /// </summary>
+        /// <param name="nombre del parametro"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAlumno(int id, Alumno alumno)
         {
