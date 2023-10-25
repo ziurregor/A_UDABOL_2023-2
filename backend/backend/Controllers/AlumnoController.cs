@@ -71,7 +71,6 @@ namespace backend.Controllers
             await _alumnoRepository.UpdateAlumno(alumno);
             return Ok();
         }
-        
         //<summary>
         /// DeleteAlumno este metodo recibe el id del alumno
         ///y lo elimina de la base de datos 
