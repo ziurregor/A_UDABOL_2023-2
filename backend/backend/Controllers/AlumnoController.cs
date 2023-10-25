@@ -59,6 +59,12 @@ namespace backend.Controllers
             return Ok(alumno);
         }
 
+        /// <summary>
+        /// AddAlumno registra un alumno 
+        /// </summary>
+        /// <param name="alumno"></param>
+        /// <returns></returns>
+
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
