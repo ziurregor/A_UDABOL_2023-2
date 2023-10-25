@@ -30,6 +30,7 @@ namespace backend.Controllers
             //Esperando los datos de manera asíncrona y guardar en la varible alumnos
             var alumnos = await _alumnoRepository.GetAllAlumno();
             return Ok(alumnos);//Retornando todos los alumnos
+
         }
 
         //[HttpGet("{id}")]
