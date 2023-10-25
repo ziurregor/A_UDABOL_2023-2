@@ -18,11 +18,19 @@ namespace backend.Controllers
             _alumnoRepository = alumnoRepository;
         }
 
+        /// <summary>
+        ///Metodo que devuelve los datos de todos los alumnos
+        /// </summary>
+        /// <param name=""></param>
+        /// <returns>Una Lista de array de todos los alumnos</returns>
+        // Metodo que devuelve los datos de todos los alumnos
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
         {
+            //Esperando los datos de manera asíncrona y guardar en la varible alumnos
             var alumnos = await _alumnoRepository.GetAllAlumno();
-            return Ok(alumnos);
+            return Ok(alumnos);//Retornando todos los alumnos
+
         }
 
         //[HttpGet("{id}")]
@@ -35,7 +43,11 @@ namespace backend.Controllers
         //    }
         //    return Ok(alumno);
         //}
-
+        /// <summary>
+        /// GetAlumnoByCodigo obtiene el registro de una llamada por busqueda de su id 
+        /// </summary>
+        /// <param name= "codigo"></param>
+        /// <returns></returns>
         [HttpGet("{codigo}")]
         public async Task<ActionResult<Alumno>> GetAlumnoByCodigo(string codigo)
         {
@@ -47,20 +59,17 @@ namespace backend.Controllers
             return Ok(alumno);
         }
 
-        /// <summary>
-        /// Addalumno  recibe un objeto de tipo alumno y lo registra en la bd.
-        /// </summary>
-        /// <param name="Alumno"></param>
-        /// <returns></returns>
-
         [HttpPost]
         public async Task<IActionResult> AddAlumno(Alumno alumno)
         {
             await _alumnoRepository.AddAlumno(alumno);
             return Ok();
         }
-
-
+        /// <summary>
+        /// UpdateAlumno modifica el registro de un alumno
+        /// </summary>
+        /// <param name="id,alumno"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAlumno(int id, Alumno alumno)
         {
@@ -71,7 +80,12 @@ namespace backend.Controllers
             await _alumnoRepository.UpdateAlumno(alumno);
             return Ok();
         }
-
+        //<summary>
+        /// DeleteAlumno este metodo recibe el id del alumno
+        ///y lo elimina de la base de datos 
+        //</summary>
+        //<param name="id"></param>
+        //<returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlumno(int id)
         {
