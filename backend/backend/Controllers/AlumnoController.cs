@@ -71,7 +71,12 @@ namespace backend.Controllers
             await _alumnoRepository.UpdateAlumno(alumno);
             return Ok();
         }
-
+        //<summary>
+        /// DeleteAlumno este metodo recibe el id del alumno
+        ///y lo elimina de la base de datos 
+        //</summary>
+        //<param name="id"></param>
+        //<returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlumno(int id)
         {
