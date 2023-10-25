@@ -43,12 +43,11 @@ namespace backend.Controllers
         //    }
         //    return Ok(alumno);
         //}
-/// <summary>
-/// GetAlumnoByCodigo obtiene el registro de una llamada por busqueda de su id 
-/// </summary>
-/// <param name= "id"></param>
-/// <returns></returns>
-
+        /// <summary>
+        /// GetAlumnoByCodigo obtiene el registro de una llamada por busqueda de su id 
+        /// </summary>
+        /// <param name= "codigo"></param>
+        /// <returns></returns>
         [HttpGet("{codigo}")]
         public async Task<ActionResult<Alumno>> GetAlumnoByCodigo(string codigo)
         {
@@ -69,7 +68,7 @@ namespace backend.Controllers
         /// <summary>
         /// UpdateAlumno modifica el registro de un alumno
         /// </summary>
-        /// <param name="nombre del parametro"></param>
+        /// <param name="id,alumno"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAlumno(int id, Alumno alumno)
