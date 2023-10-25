@@ -47,8 +47,7 @@ namespace frontend
         {
             try
             {
-                var responseMessage = await this.client.GetAsync($"//colocar el api del proyecto backend para que funcione//");
-
+                var responseMessage = await this.client.GetAsync(string.Format("/api/Alumnos/{0}",codigo));
                 if (responseMessage != null)
                 {
                     var stream = await responseMessage.Content.ReadAsStreamAsync();
