@@ -18,7 +18,11 @@ namespace backend.Controllers
             _alumnoRepository = alumnoRepository;
         }
 
-
+        /// <summary>
+        ///Metodo que devuelve los datos de todos los alumnos
+        /// </summary>
+        /// <param name=""></param>
+        /// <returns>Una Lista de array de todos los alumnos</returns>
         // Metodo que devuelve los datos de todos los alumnos
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
