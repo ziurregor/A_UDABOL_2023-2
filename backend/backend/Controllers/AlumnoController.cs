@@ -18,11 +18,19 @@ namespace backend.Controllers
             _alumnoRepository = alumnoRepository;
         }
 
+        /// <summary>
+        ///Metodo que devuelve los datos de todos los alumnos
+        /// </summary>
+        /// <param name=""></param>
+        /// <returns>Una Lista de array de todos los alumnos</returns>
+        // Metodo que devuelve los datos de todos los alumnos
         [HttpGet]
         public async Task<ActionResult<List<Alumno>>> GetAllAlumnos()
         {
+            //Esperando los datos de manera asíncrona y guardar en la varible alumnos
             var alumnos = await _alumnoRepository.GetAllAlumno();
-            return Ok(alumnos);
+            return Ok(alumnos);//Retornando todos los alumnos
+
         }
 
         //[HttpGet("{id}")]
