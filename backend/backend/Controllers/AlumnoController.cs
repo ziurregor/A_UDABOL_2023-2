@@ -32,19 +32,23 @@ namespace backend.Controllers
             return Ok(alumnos);//Retornando todos los alumnos
 
         }
-
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Alumno>> GetAlumnoById(int id)
-        //{
-        //    var alumno = await _alumnoRepository.GetAlumnoById(id);
-        //    if (alumno == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(alumno);
-        //}
         /// <summary>
         /// GetAlumnoByCodigo obtiene el registro de una llamada por busqueda de su id 
+        /// </summary>
+        /// <param name= "id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Alumno>> GetAlumnoById(int id)
+        {
+            var alumno = await _alumnoRepository.GetAlumnoById(id);
+            if (alumno == null)
+            {
+                return NotFound();
+            }
+            return Ok(alumno);
+        }
+        /// <summary>
+        /// GetAlumnoByCodigo obtiene el registro de una llamada por busqueda de su codigo 
         /// </summary>
         /// <param name= "codigo"></param>
         /// <returns></returns>
