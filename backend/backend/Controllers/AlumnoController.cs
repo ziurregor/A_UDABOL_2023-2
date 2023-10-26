@@ -37,7 +37,7 @@ namespace backend.Controllers
         /// </summary>
         /// <param name= "id"></param>
         /// <returns></returns>
-        [HttpGet("{id}")]
+        [HttpGet("GetAlumnoById")]
         public async Task<ActionResult<Alumno>> GetAlumnoById(int id)
         {
             var alumno = await _alumnoRepository.GetAlumnoById(id);
@@ -52,7 +52,7 @@ namespace backend.Controllers
         /// </summary>
         /// <param name= "codigo"></param>
         /// <returns></returns>
-        [HttpGet("{codigo}")]
+        [HttpGet("GetAlumnoByCodigo")]
         public async Task<ActionResult<Alumno>> GetAlumnoByCodigo(string codigo)
         {
             var alumno = await _alumnoRepository.GetAlumnoByCodigo(codigo);
@@ -80,7 +80,7 @@ namespace backend.Controllers
         /// </summary>
         /// <param name="id,alumno"></param>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        [HttpPut("UpdateAlumno")]
         public async Task<IActionResult> UpdateAlumno(int id, Alumno alumno)
         {
             if (id != alumno.id)
@@ -96,7 +96,7 @@ namespace backend.Controllers
         //</summary>
         //<param name="id"></param>
         //<returns></returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteAlumno")]
         public async Task<IActionResult> DeleteAlumno(int id)
         {
             var alumno = await _alumnoRepository.GetAlumnoById(id);//obtener al alumno;
