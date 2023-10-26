@@ -18,20 +18,16 @@
         @foreach (var alumno in Model.Alumnos)
         {
             <tr>
-                <td>@alumno.PrimerRegistro</td>
-                <td>@alumno.Nombre</td>
-                <td>@alumno.CorreoPersonal</td>
-                <td>@alumno.CorreoUdabol</td>
-                <td style="color: @(alumno.Verificacion =="Tiene Datos"? "green" : "red")">@alumno.Verificacion</td>
+                <td>@alumno.primerRegistro</td>
+                <td>@alumno.nombre</td>
+                <td>@alumno.correoPersonal</td>
+                <td>@alumno.correoUdabol</td>
+                <td style="color: @(alumno.verificacion =="Tiene Datos"? "green" : "red")">@alumno.verificacion</td>
 
                 @*<td>@alumno.Codigo</td>
-        <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>
-        <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>*@
+            <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>
+            <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>*@
             </tr>
         }
     </tbody>
 </table>
-
-
-
-
